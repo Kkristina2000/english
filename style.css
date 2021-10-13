@@ -1,0 +1,207 @@
+/* Сброс стилей  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  */
+header{
+    background: black;
+    padding: 40px;
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: radial-gradient(  #000000 , #dd0772,#dd0772,#000000);
+}
+.card{
+    padding: 30px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+main{
+    color:blanchedalmond;
+}
+h1{
+    font-size: 44px;
+}
+h3{
+    font-size: 30px;    
+}
+a{
+    font-size: 22px;
+}
+li{
+    font-size: 30px;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses-section__container{
+    text-align: center;
+    padding:100px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.courses-section__container{
+    display: block;
+}
+.courses-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-course__title{
+    padding: 80px 0px;
+}
+.section-course__subtitle{
+    padding:50px 0px;
+}
+.section-course{
+    text-align: center;
+    height: 100vh;
+}
+.section-audio{
+    height: 100vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.levels{
+    list-style: none;
+}
+.levels-section{
+    padding:0px 0px 100px;
+}
+.levels-section__container{
+    text-align: center;
+}
+.levels-section__title{
+    padding: 50px 0px;
+}
+.section_dark{
+    background: black;
+}
+.section_light{
+    background: rgb(240, 191, 31);
+}
+.table-section{
+    padding: 0px 0px 50px;
+}
+table{
+    border-collapse: collapse;
+    border:2px solid black;
+}
+.table__name{
+    font-size: 44px;
+    padding: 40px 0px;
+}
+th{
+    background-color: #c72576;
+    color: black;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+td{
+    padding: 15px;
+    text-align:center;
+}
+td:hover{
+    background-color: #b8266f;
+}
+td,th{
+    border:1px solid #a00a55;
+}
+.video-section{
+    display:flex;
+    justify-content: center;
+}
+.video-section__title{
+    padding: 20px 0px;
+    text-align:center;
+}
+video{
+    padding:50px 0px;
+}
+.image{
+    width:500px;
+    height:300px;
+}
+.check-section{
+    text-align: center;
+    padding: 100px 0px;
+}
+.check-section__content{
+    padding: 50px;
+}
+button{
+    width:200px;
+    height: 30px;
+    background-color: rgb(226, 69, 161);
+    border-radius:10px;
+}
+.check-section__title{
+    padding: 30px;
+}
+footer{
+    background-color: black;
+    padding: 40px;
+    border-top: 3px solid;
+    border-image-slice: 1;
+    border-image-source: radial-gradient(  #000000 , #dd0772,#dd0772,#000000);
+}
